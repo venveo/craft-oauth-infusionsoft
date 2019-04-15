@@ -1,0 +1,41 @@
+{
+    "name": "venveo/oauth-infusionsoft",
+    "description": "Infusionsoft provider for Venveo OAuth Client",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "oauth infusionsoft"
+    ],
+    "support": {
+        "docs": "https://github.com/venveo/oauth-infusionsoft/blob/master/README.md",
+        "issues": "https://github.com/venveo/oauth-infusionsoft/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Venveo",
+            "homepage": "https://www.venveo.com"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0-RC1",
+        "adespresso/oauth2-infusionsoft": "^0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "venveo\\oauthinfusionsoft\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "OAuth Infusionsoft",
+        "handle": "oauth-infusionsoft",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/venveo/oauth-infusionsoft/master/CHANGELOG.md",
+        "class": "venveo\\oauthinfusionsoft\\Plugin"
+    }
+}
