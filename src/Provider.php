@@ -43,4 +43,9 @@ class Provider extends BaseProvider
                 $options)
         );
     }
+
+    public static function getProviderClass(): string
+    {
+        return InfusionsoftProvider::class;
+    }
 }

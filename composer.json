@@ -2,7 +2,7 @@
     "name": "venveo/oauth-infusionsoft",
     "description": "Infusionsoft provider for Venveo OAuth Client",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",
@@ -22,7 +22,8 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0-RC1",
+        "craftcms/cms": "^3.1.0",
+        "venveo/craft-oauthclient": "^2.0.0",
         "adespresso/oauth2-infusionsoft": "^0.1.1"
     },
     "autoload": {
